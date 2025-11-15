@@ -5,3 +5,15 @@ auto-format = true
 [[language]]
 name = "python"
 auto-format = true
+
+[[language]]
+name = "toml"
+auto-format = true
+
+[[language]]
+name = "yaml"
+auto-format = true
+
+[[language]]
+name = "java"
+auto-format = true

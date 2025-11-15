@@ -4,13 +4,14 @@ Personal configuration files managed with GNU Stow.
 
 ## Include
 
-- fish – Shell configuration
-- ghostty – Terminal settings
+- fish – Shell
+- ghostty – Terminal
 - zellij – Terminal multiplexer
-- helix – Editor configuration
-- bat – Syntax-highlighting pager
+- helix – Code editor in TUI
+- bat – Syntax-highlighting cat clone
 - niri - Window manager
-- zed - Code editor
+- zed - Code editor in GUI
+- yazi - File manager
 
 ## Setup
 
@@ -30,7 +31,8 @@ sudo pacman -S fish ghostty zellij helix bat niri zed
 sudo pacman -S zoxide fzf eza
 
 # For helix
-sudo pacman -S clang lldb markdown-oxide ruff
+sudo pacman -S clang lldb markdown-oxide ruff taplo-cli jdk-openjdk yaml-language-server
+paru -S jdtls
 
 # For niri
 paru noctalia
