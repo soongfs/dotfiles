@@ -1,0 +1,15 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+cursorline = true
+bufferline = "multiple"
+trim-final-newlines = true
+
+[editor.cursor-shape]
+# insert = "bar"
+# select = "underline"
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
