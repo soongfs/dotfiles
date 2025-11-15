@@ -7,9 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "helix_mode": true,
+  "buffer_font_family": "Maple Mono NF CN",
   "disable_ai": true,
   "relative_line_numbers": "enabled",
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -18,7 +24,7 @@
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
   }
 }
