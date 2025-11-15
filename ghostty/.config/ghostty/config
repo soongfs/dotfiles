@@ -49,3 +49,4 @@
 # resize-overlay-duration = 4s 200ms
 font-family = "Maple Mono NF CN"
 theme = noctalia
+window-decoration = "none"
