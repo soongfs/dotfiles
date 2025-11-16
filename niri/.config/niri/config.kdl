@@ -103,14 +103,14 @@ output "Sharp Corporation LQ156T1JW05 Unknown" {
     // so to put another output directly adjacent to it on the right, set its x to 1920.
     // If the position is unset or results in an overlap, the output is instead placed
     // automatically.
-    position x=-2048 y=0
+    position x=0 y=0
 }
 
 output "PNP(SAC) G52plus 0000000000000" {
     mode "2560x1440@179.999"
     scale 1.25
     transform "normal"
-    position x=0 y=0
+    position x=-2048 y=0
 }
 
 // Settings that influence how windows are positioned and sized.
