@@ -91,6 +91,9 @@ fi
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+alias lla='ls -lA'
+alias lt='tree'
+alias lta='tree -a'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
