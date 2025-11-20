@@ -1,7 +1,7 @@
 function ll
     if type -q eza
-        eza --icons -alh --git $argv
+        eza --icons -lh --git $argv
     else
-        command ls --color=auto -alh $argv
+        command ls --color=auto -lh $argv
     end
 end

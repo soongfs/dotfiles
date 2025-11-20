@@ -1,6 +1,6 @@
-function lt
+function llt
     if type -q eza
-        eza --icons -T $argv
+        eza --icons -lhT $argv
     else
         echo "eza not found"
     end
