@@ -88,7 +88,7 @@ output "Sharp Corporation LQ156T1JW05 Unknown" {
     mode "2560x1440@165.003"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 1.25
+    scale 1.5
 
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
@@ -282,7 +282,7 @@ layout {
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
