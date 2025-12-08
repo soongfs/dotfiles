@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "shell": {
+      "program": "fish"
+    }
+  },
+  "format_on_save": "on",
   "buffer_font_family": "Maple Mono NF CN",
   "disable_ai": false,
   "relative_line_numbers": "enabled",
@@ -24,6 +30,6 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Kanagawa Wave"
   }
 }
