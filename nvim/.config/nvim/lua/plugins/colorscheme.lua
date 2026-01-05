@@ -4,7 +4,23 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "kanagawa-dragon",
     },
   },
+  -- { "kdheepak/monochrome.nvim" },
+  --
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "monochrome",
+  --   },
+  -- },
+  -- { "slugbyte/lackluster.nvim" },
+  --
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorschme = "lackluster",
+  --   },
+  -- },
 }
