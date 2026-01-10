@@ -20,8 +20,9 @@ fi
 # Common options (keep conservative)
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' 
---color=fg:#c5cdd9,bg:#262729,hl:#6cb6eb 
---color=fg+:#c5cdd9,bg+:#262729,hl+:#5dbbc1 
---color=info:#88909f,prompt:#ec7279,pointer:#d38aea 
---color=marker:#a0c980,spinner:#ec7279,header:#5dbbc1'
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+	--color=fg:#908caa,bg:#191724,hl:#ebbcba
+	--color=fg+:#e0def4,bg+:#26233a,hl+:#ebbcba
+	--color=border:#403d52,header:#31748f,gutter:#191724
+	--color=spinner:#f6c177,info:#9ccfd8
+	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa'
