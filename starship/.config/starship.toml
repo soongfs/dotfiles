@@ -4,7 +4,7 @@ palette = "catppuccin_mocha"
 
 [character]
 success_symbol = "[❯](green)"
-error_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
 [aws]
