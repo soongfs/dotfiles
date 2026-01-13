@@ -1,0 +1,5 @@
+font-family = "Maple Mono NF CN"
+window-decoration = "none"
+command = zsh
+cursor-style = block
+theme = Catppuccin Mocha
