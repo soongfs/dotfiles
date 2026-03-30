@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = master
+[user]
+	name = soongfs
+	email = soongfs.dev@outlook.com
+	signingkey = 081AF3113DAEA617
+[commit]
+	gpgsign = true
