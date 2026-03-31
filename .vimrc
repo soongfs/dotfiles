@@ -6,6 +6,10 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
+" line number
+set number
+set relativenumber
+
 " clipboard
 vnoremap <leader>y y:call system('xclip -selection clipboard', @")<CR>
 nnoremap <leader>yy yy:call system('xclip -selection clipboard', @")<CR>
