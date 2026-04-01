@@ -11,5 +11,7 @@ set smartcase
 set incsearch
 set hlsearch
 
+syntax on
+
 set background=dark
 colorscheme gruvbox
