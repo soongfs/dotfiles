@@ -13,5 +13,11 @@ set hlsearch
 
 syntax on
 
+if (has("termguicolors"))
+    set termguicolors
+endif
+
+let g:gruvbox_italic=1
+
 set background=dark
 colorscheme gruvbox
