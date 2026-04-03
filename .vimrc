@@ -13,6 +13,8 @@ set hlsearch
 
 syntax on
 
+set laststatus=2
+
 if (has("termguicolors"))
     set termguicolors
 endif
